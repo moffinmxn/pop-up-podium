@@ -61,7 +61,7 @@ int main(){
 
         int randomIndex = rand() % options.size();
 
-        cout << GOLD << "\n"  << SPACE << "====================================================\n\n";
+        cout << GOLD << "\n"  << SPACE << "====================================================\n";
         cout << BOLD << DEEP_BROWN << "\n" << SPACE << "                The choice is made!\n" << SPACE << "   You now bear the perfect trophy from the vault.\n";
         cout << GOLD << "\n"  << SPACE << "====================================================\n\n" << RESET;
         cout << BOLD << RUBY_RED << SPACE << "      >>>            " << options[randomIndex] << "             <<<\n" << RESET;
