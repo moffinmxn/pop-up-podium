@@ -16,7 +16,7 @@ const string DEEP_BROWN  = "\033[38;5;130m"; // Warm Brown/Earth for title & ins
 const string AMBER_GLOW  = "\033[38;5;214m"; // Amber Glow for list prompts
 const string RUBY_RED    = "\033[38;5;196m"; // Rich Crimson Ruby for selected winner
 const string DARK_ERROR  = "\033[38;5;124m"; // Dark Ruby Red for warnings
-const string SPACE       = "                              ";
+const string SPACE       = "                                   ";
 
 int main(){
     srand(time(0));
